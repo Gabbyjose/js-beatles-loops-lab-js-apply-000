@@ -7,11 +7,10 @@ function theBeatlesPlay(array1, array2){
 }
 
 function johnLennonFacts(factsArray){
-  var exclamationArray = [];
-
-  while (exclamationArray.length <= factsArray.length){
-    exclamationArray.push(factsArray[i] + "!!!");
+  var i=0;
+  while (i < factsArray.length){
+    factsArray[i] += "!!!";
   }
 
-  return exclamationArray;
+  return factsArray;
 }
