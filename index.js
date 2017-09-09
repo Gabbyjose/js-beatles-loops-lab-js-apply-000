@@ -5,3 +5,13 @@ function theBeatlesPlay(array1, array2){
   }
   return instrumentArr;
 }
+
+function johnLennonFacts(factsArray){
+  var exclamationArray = [];
+
+  while (exclamationArray.length <= factsArray.length){
+    exclamationArray.push(factsArray[i] + "!!!");
+  }
+
+  return exclamationArray;
+}
