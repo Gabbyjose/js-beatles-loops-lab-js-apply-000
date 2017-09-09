@@ -23,4 +23,5 @@ function iLoveTheBeatles(num){
     finalArr.push("I love the Beatles!");
     i++;
   } while (i<num);
+  return finalArr;
 }
